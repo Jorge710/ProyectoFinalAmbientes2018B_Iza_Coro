@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url(estiloSlider.css);
+body{
+    background: #fff;;
+    font-family: Arial;
+    background-image:url('../IMAGENES/fondoDis.png');
+}
+.contenedor{
+    width: 95%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    /*background: red;*/
+}
+
+.main{
+    width: 70%;
+    background: #fff;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+aside{
+    width: 30%;
+    max-width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #ccc;
+    float: right;
+}
+
+footer{
+    clear: both;
+    float: left;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    background: #888;
+}
+
+@media screen and (max-width: 800px){
+    .main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+}
+/*
+@media screen and (max-width: 400px){
+    .contenedor{
+        width: 100%;
+    }
+    aside{
+        display: none;
+    }
+}*/

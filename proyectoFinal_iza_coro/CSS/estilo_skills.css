@@ -1,0 +1,69 @@
+.skills{
+    width: 90%;
+    margin: 50px auto;
+    color: black;
+}
+
+.skills li{
+    margin: 10px 0;
+    width: 100%;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 15px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+    height: 15px;
+    float: left;
+    background: #2187e7;
+}
+
+.malvaviscos{
+    width: 25%;
+    animation: malvaviscos 2s;
+}
+
+.Mazapan{
+    width: 45%;
+    animation: Mazapan 2s;
+}
+
+.Mazapan_rosa{
+    width: 30%;
+    animation: Mazapan_rosa 2s;
+}
+
+
+@keyframes malvaviscos{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+}
+
+@keyframes Mazapan{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+
+@keyframes Mazapan_rosa{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}

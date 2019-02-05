@@ -1,0 +1,38 @@
+li{
+    float: left;
+    list-style: none;
+    padding: 20px;
+}
+
+nav{
+    float: right;
+    margin-top: 0%;
+    margin-right: 1%;
+    
+}
+
+a{
+    text-decoration: none;
+    font-family: fantasy;
+    color: darkblue;
+}
+.logo{
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+
+header{
+    background-color: #bf8040;
+
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+
+    
+.list-item:hover {
+    /*color: rgba(255,255,255,1);*/
+    color: black;
+    background-color: rgba(0,0,0,0.2);
+    border-bottom: 3px ridge blue;
+} 
